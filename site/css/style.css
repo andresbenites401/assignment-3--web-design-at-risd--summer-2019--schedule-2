@@ -1,10 +1,12 @@
 figure {
    position: relative;
-   width: 350px;
-   height: 350px;
+   width: 300px;
+   height: 300px;
 }
 
 figure img {
+   width: 100%;
+   height: 100%;
    transition: .7s;
    backface-visibility: hidden;
 }
@@ -15,17 +17,21 @@ figure figcaption {
    top: 0;
    left: 0;
    transform: rotateY(180deg);
-   transition: .7s;
+   transition: .8s;
    width: 100%;
    height: 100%;
    backface-visibility: hidden;
 }
 
 figure:hover img {
-   transform: rotateY(180deg);
-   opacity: 0;
+   opacity: .5;
 }
 
-figure:hover figcaption {
+figure:active figcaption {
    transform: rotateY(0);
+}
+
+figure:active img {
+   transform: rotateY(180deg);
+   opacity: 0;
 }
