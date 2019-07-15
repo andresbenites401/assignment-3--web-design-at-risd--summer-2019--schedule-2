@@ -31,14 +31,14 @@ h1 {
 h2 {
    font-size: 36px;
    margin-top: 10px;
-   text-align: left;
+   text-align: right;
    /* font-family: Monoton, cursive; */
 }
 
 h3 {
    font-size: 22px;
    margin-top: -29px;
-   text-align: right;
+   text-align: left;
    font-weight: bold;
    /* font-family: Monoton, cursive; */
    font-family: Montserrat, sans-serif;
