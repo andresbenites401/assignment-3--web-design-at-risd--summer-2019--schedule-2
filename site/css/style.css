@@ -11,7 +11,6 @@ body {
 .page-title {
    text-align: center;
    font-family: Prata, serif;
-   /* background: rgba(255, 255, 255, .2); */
    position: absolute;
    padding: 1em;
    width: 550px;
@@ -26,27 +25,26 @@ h2 {
    font-size: 36px;
 }
 
-.card-container {
-   margin-top: 300px;
-   width: 1000px;
-   height: 700px;
-   perspective: 1000px;
+.container {
+   display: flex;
+   margin: 200px 30px auto;
+   flex-wrap: wrap;
    justify-content: center;
    align-items: center;
 }
 
 .card {
+   margin: 10px;
    position: relative;
-   width: 300px;
-   height: 300px;
+   width: 250px;
+   height: 250px;
    transition: transform 1s;
    transform-style: preserve-3d;
 }
 
-.card-container:hover .card {
-   transform: rotateY(180deg); /* <=>  rotateY(.5turn) */
+.card:hover {
+   transform: rotateY(180deg);
 }
-/* Position the front and back side */
 
 .front {
    position: absolute;
@@ -56,7 +54,7 @@ h2 {
    display: flex;
    justify-content: center;
    align-items: center;
-   color: #fff;
+   color: #aaa;
 }
 
 .back {
@@ -79,8 +77,19 @@ h2 {
 .front h4 {
    position: absolute;
    font-size: 20px;
-   background-color: rgba(255, 0, 0, 1);
+   text-align: center;
+   background-color: rgba(255, 255, 255, 1);
+   padding: 30px 1em;
+   width: 100%;
+}
+
+.front h5 {
+   position: absolute;
+   font-size: 20px;
+   text-align: center;
+   background-color: rgba(255, 255, 255, 1);
    padding: 1em;
+   width: 100%;
 }
 
 .back p {
