@@ -3,7 +3,7 @@
 }
 
 body {
-   /* font-family: Lobster, cursive; */
+   font-family: Lobster, cursive;
    width: 100vw;
    height: 100vh;
    display: flex;
@@ -15,27 +15,30 @@ body {
    position: absolute;
    padding: 1em;
    width: 1000px;
-   margin: 20px calc(50vw - 500px);
+   margin: 1vh calc(50vw - 500px);
 }
 
 h1 {
    font-weight: bold;
    font-size: 48px;
+   /* font-family: Monoton, cursive; */
 }
 
 h2 {
    font-size: 36px;
+   margin-top: 10px;
+   /* font-family: Monoton, cursive; */
 }
 
 h3 {
    font-size: 22px;
-   padding-top: 1em;
+   margin-top: 15px;
    font-family: Monoton, cursive;
 }
 
 .container {
    display: flex;
-   margin: 180px 30px auto;
+   margin: 170px 30px 2vh;
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
