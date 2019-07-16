@@ -1,0 +1,15 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.banner:nth-child(2) {
+   height: 100vh;
+   background: url('https://live.staticflickr.com/4035/4550884763_9b0890bd74_b.jpg') no-repeat fixed 50% 50% / cover;
+}
+
+.banner-container {
+   background-color: rgba(255,255,255,.7);
+   width: 80%;
+   margin: auto;
+   padding: 40px;
