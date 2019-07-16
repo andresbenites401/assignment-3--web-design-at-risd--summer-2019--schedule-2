@@ -1,0 +1,132 @@
+
+:root {
+   font-family: 'EB Garamond', serif;
+}
+
+header {
+   font-family: 'EB Garamond', serif;
+   font-size: 5rem;
+   font-variant: small-caps;
+   line-height: 90%;
+   color: #fff;
+   padding-left: 40px;
+   padding-top: 40px;
+   background-color: #000;
+}
+
+header > p:first-of-type {
+   font-size: 2rem;
+   font-family: 'Proza Libre', sans-serif;
+   font-variant: normal;
+   width: 100%;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-bottom: 335px;
+}
+
+#container {
+   font-family: 'Proza Libre', sans-serif;
+   line-height: 150%;
+   margin: auto;
+   width: 70%;
+   height: 1000vh;
+}
+
+nav > p:first-of-type {
+   /* color: rgb(255, 23, 120); */
+   font-size: 2rem;
+   font-variant: small-caps;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: 38.33px;
+   padding-top: 0px;
+}
+
+small {
+   font-size: 1rem;
+}
+
+h2 {
+   font-family: 'EB Garamond', serif;
+   font-size: 2rem;
+   font-variant: small-caps;
+   margin-bottom: 40px;
+   color: #ed1c24;
+}
+
+figure {
+  width: 500px;
+  float: right;
+}
+
+#one {
+   margin-top: 190px;
+   width: 500px;
+   float: right;
+}
+
+#two, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
+   margin-top: 190px;
+   width: 500px;
+   float: right;
+}
+
+#Is-innovative {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
+
+#Makes-a-product-useful {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
+
+#Is-aesthetic {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
+
+#Makes-a-product-understandable {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
+
+#Is-unobtrusive {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
+
+#Is-honest {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
+
+#Is-long-lasting {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
+
+#Is-thorough-down-to-the-last-detail {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
+
+#Is-environmentaly-friendly {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
+
+#Is-as-little-design-as-possible {
+   padding-top: 190px;
+   height: 500px;
+   width: 300px;
+}
