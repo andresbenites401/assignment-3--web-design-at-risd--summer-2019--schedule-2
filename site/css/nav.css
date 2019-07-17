@@ -56,3 +56,16 @@ body {
    margin: auto;
    padding-top: 160px;
 }
+
+li {
+   border-bottom: 2px;
+   border-color: #444;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+   text-decoration: none;
+   color: #444;
+}
