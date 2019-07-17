@@ -1,0 +1,59 @@
+
+h2 {
+   margin: 120px;
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 30px;
+   text-decoration: underline;
+   color: #444;
+}
+
+h3 {
+   margin: -80px 120px;
+   font-family: 'Ubuntu Mono', monospace;
+   font-weight: 400;
+   font-size: 16px;
+   color: #444;
+}
+
+p {
+
+   text-align: left;
+   font-family: 'Nanum Gothic', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.4;
+   color: #444;
+}
+
+.principles {
+   display: flex;
+   background-color: #eee;
+   text-align: left;
+   height: 300px;
+}
+
+.content {
+   text-align: left;
+   font-family: 'Nanum Gothic', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.4;
+   color: #444;
+}
+
+.brief {
+   margin: 10px;
+   padding: 2px;
+   font-family: 'Ubuntu Mono', monospace;
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 1.4;
+   margin-top: -140px;
+   margin-bottom: -360px;
+   color: #bf832c;
+
+}
+
+.leading {
+   margin-top: 300px;
+}
