@@ -1,8 +1,9 @@
 
 :root {
    font-size: 32px;
-   --dark: #505050;
-   --light: #eee;
+   --dark: #2f3f4e;
+   --light: #fbfbfb;
+   --highlight: #22abe0;
 }
 
 body {
@@ -10,28 +11,33 @@ body {
    font-size: 1rem;
    font-family: Raleway, sans-serif;
    text-align: left;
-   color: #262726;
+   color: #333;
+}
+
+em {
+   color: var(--highlight);
 }
 
 nav {
    float: left;
    position: fixed;
    z-index: 1;
-   left: 21vw;
+   left: 16vw;
    bottom: 2vh;
 }
 
 nav li {
+   font-family: 'Slabo 27px', serif;
    box-sizing: border-box;
-   height: 40px;
-   width: 40px;
-   font-size: .6rem;
+   height: 6vh;
+   width: 6vh;
+   font-size: 2.8vh;
    color: var(--light);
    background-color: var(--dark);
    border-radius: 50%;
    text-align: center;
-   margin: 10px;
-   padding-top: 12px;
+   margin: 1vh;
+   padding-top: 1.7vh;
    position: relative;
    transition: all .2s;
 }
@@ -45,13 +51,25 @@ a {
 }
 
 .cover {
-   height: 20vh;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   height: 75vh;
    background-color: var(--dark);
+   z-index: 3;
+   position: relative;
+   transform: scaleY(1);
+}
+
+.cover img{
+   display: inline;
+   height: 30vh;
+   width: 30vh;
 }
 
 .container {
    scroll-behavior: smooth;
-   text-align: right;
+   text-align: center;
    width: 100vw;
    margin-left: auto;
    box-sizing: border-box;
@@ -62,63 +80,95 @@ a {
 
 .main {
    margin-left: auto;
-   width: 80%;
+   margin-right: auto;
+   width: 70%;
    z-index: 0;
    position: relative;
 }
 
 header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+   width: 100%;
    z-index: 3;
    position: relative;
-   font-family: Lato, sans-serif;
+   font-family: Raleway, sans-serif;
+   font-weight: 700;
    scroll-snap-align: none;
    box-sizing: border-box;
-   height: 69vh;
-   padding: 53vh 1vw 0;
+   height: 15vh;
    text-transform: uppercase;
-   font-size: 1rem;
    background-color: var(--light);
-   border-radius: 100px 0 0;
+   border-radius: 3vw 3vw 0 0;
+}
+
+header .subtitle {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   width: 100%;
+   color: var(--light);
+   background: var(--highlight);
+   padding: 0;
+   border-radius: 3vw 3vw 0 0;
+   height: 7vh;
+   font-size: 3vh;
+   line-height: 7vh;
 }
 
 header h1 {
-   font-size: 13vh;
+   font-size: 7.5vh;
+   transform: translateY(3vh);
 }
 
 section {
+   display: flex;
+   flex-direction: column;
    box-sizing: border-box;
    height: 100vh;
    scroll-snap-align: start;
    background-color: var(--light);
-   padding: 13vh 20px 50px;
+   padding: 10vh 20px 50px;
 }
 
 section h2 {
-   font-family: Lato, sans-serif;
+   font-family: Raleway, sans-serif;
+   font-weight: 700;
    text-transform: uppercase;
-   font-size: 2.5rem;
+   font-size: 7.5vh;
+   line-height: 8vh;
+}
+
+section .numeral {
+   font-family: 'Slabo 27px', serif;
+   margin-top: 1vh;
+   font-size: 8vh;
 }
 
 section p {
-   padding: 80px;
-   line-height: 1.5rem;
+   padding: 12vh 7vw;
+   font-size: 1rem;
+   line-height: 1.2rem;
 }
 
-section a {
+.final a {
    position: absolute;
-   bottom: 80px;
-   right: 80px;
+   bottom: 10vh;
+   right: 9vh;
 }
 
 .header-sticky {
    z-index: 2;
-   font-family: Lato, sans-serif;
+   font-family: Raleway, sans-serif;
+   font-weight: 700;
    font-size: 7.5vh;
    text-transform: uppercase;
    scroll-snap-align: none;
    padding-top: 2vh;
    background-color: var(--light);
-   height: 12vh;
+   height: 10vh;
    position: sticky;
    top: 0;
    /* box-shadow: 20px 0 20px #0002; */
@@ -126,11 +176,54 @@ section a {
 
 .fas {
    color: var(--light);
-   height: 80px;
-   width: 80px;
+   height: 5vw;
+   width: 5vw;
+   font-size: 3vw;
    background: var(--dark);
    border-radius: 50%;
    box-sizing: border-box;
-   padding-right: 25px;
-   padding-top: 21px;
+   padding-top: 15%;
+   transition: transform .2s;
+}
+
+.fas:hover {
+   transform: scale(1.3);
+}
+
+footer {
+   background-color: var(--highlight);
+   height: 6vh;
+}
+
+@media (max-width: 1024px) {
+   .main {
+      width: 90%;
+   }
+
+   nav {
+      left: 5.5vw;
+   }
+}
+
+@media (max-width: 768px) {
+   .main {
+      width: 100%;
+   }
+
+   nav {
+      float: none;
+      width: 80%;
+      left: 10%;
+      bottom: 2vh;
+   }
+
+   nav li {
+      display: inline-block;
+   }
+}
+
+@media (max-width: 400px) {
+   nav {
+      display: none;
+   }
 }
