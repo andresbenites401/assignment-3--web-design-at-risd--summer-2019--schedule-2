@@ -4,12 +4,12 @@
 
 body {
    width: 100vw;
-   height: 100vh;
+   /* height: 100vh; */
    display: flex;
 }
 
 .main-container {
-   margin: 5vh 10px 0;
+   margin: 3vh 10px 0;
    align-self: center;
 }
 
@@ -43,7 +43,7 @@ h3 {
    font-weight: 700;
    /* font-family: Monoton, cursive; */
    font-family: Montserrat, sans-serif;
-   text-decoration: underline #ff8500;
+   text-decoration: underline #01d2a3;
 }
 
 .container {
