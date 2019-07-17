@@ -1,0 +1,53 @@
+.principles {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-row-gap: 3em;
+}
+
+.principles > div {
+   background-color: lightgrey;
+   padding: 2em;
+   border: solid .5em darkblue;
+   text-align: center;
+   width: 400px;
+   height: 150px;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 16px;
+   border-radius: 20px;
+   box-shadow: 20px 20px 30px black;
+}
+
+p {
+   line-height: 20px;
+}
+
+h1 {
+   font-size: 60px;
+   text-align: center;
+   color: white;
+   padding: 30px;
+}
+
+h2 {
+   font-size: 30px;
+   margin: 20px;
+   text-align: center;
+   color: white;
+}
+
+h3 {
+   font-size: 40px;
+   margin: 50px;
+}
+
+h4 {
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+
+header {
+   background-color: darkblue;
+   height: 250px;
+}
