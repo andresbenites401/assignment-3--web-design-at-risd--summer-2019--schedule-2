@@ -1,10 +1,15 @@
-
 h2 {
    margin: 120px;
    font-family: 'Ubuntu Mono', monospace;
-   font-size: 30px;
-   text-decoration: underline;
-   color: #444;
+   font-size: 60px;
+   color: #eee;
+   text-shadow: -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444, 1px 1px 0 #444;
+}
+
+.line {
+   width: 100vw;
+   height: 3px;
+   background: #444;
 }
 
 h3 {
@@ -12,48 +17,75 @@ h3 {
    font-family: 'Ubuntu Mono', monospace;
    font-weight: 400;
    font-size: 16px;
+   line-height: 1.2;
+   color: #bf832c;
+}
+
+body {
+   margin: 10px 20px;
+   background-color: #eee;
+}
+
+.banner {
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 28px;
+   margin: 200px 120px 10px;
    color: #444;
 }
 
-p {
-
-   text-align: left;
-   font-family: 'Nanum Gothic', sans-serif;
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 1.4;
-   color: #444;
+.container {
+   width: 100vw;
 }
 
 .principles {
-   display: flex;
+   margin: 40px 120px;
    background-color: #eee;
-   text-align: left;
-   height: 300px;
 }
 
 .content {
+   margin: 40px 120px;
    text-align: left;
    font-family: 'Nanum Gothic', sans-serif;
    font-weight: 400;
-   font-size: 18px;
+   font-size: 16px;
    line-height: 1.4;
    color: #444;
 }
 
 .brief {
-   margin: 10px;
-   padding: 2px;
+   max-width: 900px;
+   text-align: left;
    font-family: 'Ubuntu Mono', monospace;
-   font-weight: 800;
-   font-size: 40px;
-   line-height: 1.4;
-   margin-top: -140px;
-   margin-bottom: -360px;
-   color: #bf832c;
-
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 1.2;
+   color: #444;
 }
 
 .leading {
    margin-top: 300px;
+}
+
+.designwork {
+   display: block;
+   text-align: center;
+   margin: 200px 20px 10px;
+}
+
+.description {
+   margin: 40px 120px;
+   text-align: center;
+   font-family: 'Ubuntu Mono', monospace;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.4;
+   color: #444;
+}
+
+#video {
+   margin: 40px 120px;
+   background-color: #444;
+   text-align: center;
+   z-index: -100;
+   transform: translate(-50%, -50%);
 }
