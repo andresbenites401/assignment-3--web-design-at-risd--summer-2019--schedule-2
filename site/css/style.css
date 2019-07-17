@@ -82,10 +82,10 @@ body {
    color: #444;
 }
 
-#video {
-   margin: 40px 120px;
-   background-color: #444;
+#videoplay {
+   margin-top: 141px;
+   width: 100vw;
    text-align: center;
-   z-index: -100;
-   transform: translate(-50%, -50%);
+   background-color: #444;
+
 }
