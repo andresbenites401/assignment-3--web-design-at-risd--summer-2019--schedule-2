@@ -1,0 +1,117 @@
+h1 {
+   font-size: 100px;
+   font-family: 'Fredericka the Great', cursive;
+   font-variant: small-caps;
+   color: white;
+   padding-left: 35px;
+   padding-top: 15px;
+   text-align: center;
+}
+
+.block3 {
+   padding-top: 250px;
+   padding-bottom: 250px;
+   background-color: black
+}
+
+h2 {
+   font-size: 18px;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: bolder;
+   padding-top: 20px;
+   padding-bottom: 63px;
+   padding-left: 925px;
+   color: white;
+}
+
+h3 {
+   font-size: 100px;
+   font-family: 'Abril Fatface', cursive;
+   font-variant: small-caps;
+   padding-top: 20px;
+   padding-bottom: 3px;
+   margin-left: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+h4
+{
+   font-size: 75px;
+   font-family: 'Abril Fatface', cursive;
+   font-style: normal;
+   padding-left: 45px;
+   padding-right: 75px;
+   padding-top: 20px;
+   padding-bottom: 25px;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+main {
+   font-size: 18px;
+   font-family: 'Open Sans Condensed', sans-serif;
+   padding-left: 45px;
+   padding-right: 550px;
+   padding-bottom: 450px;
+   letter-spacing: 1px;
+   line-height: 25px;
+   scroll-snap-type: y mandatory;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.block1 {
+   position: sticky;
+   top: 0;
+   width: 100%;
+   background: white;
+   padding-left: 35px;
+   padding-top: 10px;
+   padding-bottom: 0px;
+   overflow-y: scroll;
+   scroll-snap-type; y mandatory;
+}
+
+
+.block5 {
+   padding-bottom: 520px;
+   scroll-snap-type: y mandatory;
+}
+
+.block5 {
+   padding-bottom: 520px;
+   scroll-snap-type: y mandatory;
+}
+
+section {
+   padding-top: 150px;
+}
+
+li {
+   display: inline-block;
+   color: white;
+   font-family: 'Fredericka the Great', cursive;
+   border-radius: 50%;
+   background-color: white;
+   height: 65px;
+   width: 65px;
+   box-sizing: border-box;
+   padding-top: 22px;
+   margin-right: 5px;
+   margin-left: 43px;
+   text-align: center;
+
+}
+
+li a {
+   text-decoration: none;
+   color: black;
+   justify-content: space-around;
+}
+
+ul {
+   margin-top: -53px;
+}
