@@ -1,0 +1,91 @@
+h2 {
+   margin: 120px;
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 60px;
+   color: #eee;
+   text-shadow: -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444, 1px 1px 0 #444;
+}
+
+.line {
+   width: 100vw;
+   height: 3px;
+   background: #444;
+}
+
+h3 {
+   margin: -80px 120px;
+   font-family: 'Ubuntu Mono', monospace;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.2;
+   color: #bf832c;
+}
+
+body {
+   margin: 10px 20px;
+   background-color: #eee;
+}
+
+.banner {
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 28px;
+   margin: 200px 120px 10px;
+   color: #444;
+}
+
+.container {
+   width: 100vw;
+}
+
+.principles {
+   margin: 40px 120px;
+   background-color: #eee;
+}
+
+.content {
+   margin: 40px 120px;
+   text-align: left;
+   font-family: 'Nanum Gothic', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.4;
+   color: #444;
+}
+
+.brief {
+   max-width: 900px;
+   text-align: left;
+   font-family: 'Ubuntu Mono', monospace;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 1.2;
+   color: #444;
+}
+
+.leading {
+   margin-top: 300px;
+}
+
+.designwork {
+   display: block;
+   text-align: center;
+   margin: 200px 20px 10px;
+}
+
+.description {
+   margin: 40px 120px;
+   text-align: center;
+   font-family: 'Ubuntu Mono', monospace;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.4;
+   color: #444;
+}
+
+#videoplay {
+   margin-top: 141px;
+   width: 100vw;
+   text-align: center;
+   background-color: #444;
+
+}
