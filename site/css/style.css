@@ -1,9 +1,9 @@
 
 :root {
    font-size: 32px;
-   --dark: #2f3f4e;
+   --dark: #3a4250;
    --light: #fbfbfb;
-   --highlight: #22abe0;
+   --highlight: #c30d0d;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
    font-size: 1rem;
    font-family: Raleway, sans-serif;
    text-align: left;
-   color: #333;
+   color: #222;
 }
 
 em {
