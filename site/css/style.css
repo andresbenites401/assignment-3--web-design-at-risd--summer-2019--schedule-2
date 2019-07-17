@@ -1,0 +1,41 @@
+h1 {
+   font-size: 100px;
+   padding-bottom: 15px;
+   padding-top: 65px;
+   text-align: center;
+   font-family: 'Rubik Mono One', sans-serif;
+}
+
+body {
+   background-color: #FBD2D2;
+}
+
+h2 {
+   padding-left: 1160px;
+   padding-bottom: 70px;
+   font-family: 'Rubik Mono One', sans-serif;
+
+}
+
+h3 {
+   font-size: 25px;
+   padding-left: 40px;
+   font-family: 'Rubik Mono One', sans-serif;
+
+}
+
+.container{
+   width: 8000px;
+   height: 20vh;
+   display: flex;
+   padding-bottom: 60px;
+}
+
+section {
+   padding-top: 35px;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-bottom: 80px;
+   font-family: 'Montserrat', sans-serif;
+   width: 600px;
+}
