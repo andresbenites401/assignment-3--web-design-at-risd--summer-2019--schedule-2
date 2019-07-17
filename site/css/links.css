@@ -1,0 +1,36 @@
+
+a.class1 {
+   color: red;
+}
+
+a.class1:link {
+   text-decoration: none;
+   color: #ed1c24;
+}
+
+a.class1:visited {
+   text-decoration: none;
+   color: #ed1c24;
+}
+
+a {
+   display: block;
+   transition: 375ms;
+}
+
+a:link {
+   text-decoration: none;
+   color: #fff;
+}
+
+a:visited {
+   color: #333;
+}
+
+a:hover {
+   background-color: white;
+}
+
+a:active {
+   background-color: red;
+}

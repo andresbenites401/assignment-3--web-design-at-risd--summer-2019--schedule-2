@@ -1,0 +1,22 @@
+nav {
+   font-family: 'EB Garamond', serif;
+   position: sticky;
+   top: 0;
+   left: 0;
+   background-color: #000;
+}
+
+nav > ul {
+   /* margin: 0 auto; */
+   margin-left: 40px;
+   width: 100%;
+   list-style-type: none;
+}
+
+nav > ul > li {
+   text-align: left;
+   width: 230px;
+   height: var(--height--nav);
+   line-height: var(--height--nav);
+   display: inline-block;
+}
